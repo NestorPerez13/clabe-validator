@@ -113,7 +113,8 @@ describe('List of CLABE cities', () => {
          { input: 'Tecate',              expected: '027' },
          { input: 'La Mesa',             expected: '028' },
          { input: 'Rosarito',            expected: '028' },
-         { input: 'Jerez de G. Salinas', expected: '936' }
+         { input: 'Jerez de G. Salinas', expected: '936' },
+         { input: 'Chimalhuacan', expected: '437' }
          ];
       const evalData = (data) => {
          const actual =   { city: data.input, code: cityNamesMap[data.input] };
@@ -197,7 +198,8 @@ describe('CLABE validator', () => {
          '002010077777777771',
          '032180000118359719',
          '014027000005555558',
-         '014028000005555557'
+         '014028000005555557',
+         '127437000000000006'
          ];
       const evalData = (data) => {
          const result = clabe.validate(data);
