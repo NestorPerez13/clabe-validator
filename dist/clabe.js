@@ -1,8 +1,8 @@
-//! CLABE Validator v1.3.6 ~ github.com/center-key/clabe-validator ~ MIT License
+//! CLABE Validator v1.3.8 ~ github.com/center-key/clabe-validator ~ MIT License
 
 const clabe = {
 
-    version: '1.3.6',
+    version: '1.3.8',
 
     computeChecksum: (clabeNum17) => {
         // Returns the checksum calculated from the first 17 characters of CLABE number.
@@ -505,6 +505,7 @@ const clabe = {
         [651, 'N/A'],
         [652, 'Acatzingo'],
         [654, 'Atlixco'],
+        [655, 'Los Heroes de Puebla'],
         [656, 'Cuetzalan'],
         [659, 'Huauchinango'],
         [662, 'Izúcar de Matamoros'],
